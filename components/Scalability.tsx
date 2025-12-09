@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionId } from '../types';
-import { TrendingUp, Store, Users, Layers, BrickWall, Coins } from 'lucide-react';
+import { Users, Layers, BrickWall, Store } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export const Scalability: React.FC = () => {
@@ -93,22 +93,53 @@ export const Scalability: React.FC = () => {
             </motion.div>
         </div>
 
-        {/* The ROI Stats */}
-        <div className="grid md:grid-cols-3 gap-6 mt-20">
-            <div className="p-6 bg-purple-50 rounded-2xl border border-purple-100 text-center">
-                <div className="text-purple-400 mb-3 flex justify-center"><Store size={32}/></div>
-                <div className="text-3xl font-bold text-purple-900 mb-1">98%</div>
-                <div className="text-sm text-purple-600">Dekning av befolkninga</div>
-            </div>
-             <div className="p-6 bg-purple-50 rounded-2xl border border-purple-100 text-center">
-                <div className="text-purple-400 mb-3 flex justify-center"><Coins size={32}/></div>
-                <div className="text-3xl font-bold text-purple-900 mb-1">0,-</div>
-                <div className="text-sm text-purple-600">Investestering i infrastruktur</div>
-            </div>
-             <div className="p-6 bg-purple-50 rounded-2xl border border-purple-100 text-center">
-                <div className="text-purple-400 mb-3 flex justify-center"><TrendingUp size={32}/></div>
-                <div className="text-3xl font-bold text-green-600 mb-1">160%</div>
-                <div className="text-sm text-purple-600">Estimert ROI første år</div>
+        {/* The Problem We're Solving */}
+        <div className="mt-20 bg-yellow-50 rounded-3xl p-8 md:p-12 border-2 border-yellow-200">
+            <h3 className="text-2xl md:text-3xl font-bold text-purple-900 mb-6">Problemstillinga</h3>
+            <p className="text-lg text-purple-800 mb-6 leading-relaxed">
+                Korleis kan vi gjere det meir attraktivt og relevant for vaksne mellom 50–65 år i bydel Østensjø å bli frivillige ved frivilligsentralen?
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-white p-6 rounded-2xl shadow-sm">
+                    <h4 className="font-bold text-purple-900 mb-4 flex items-center gap-2">
+                        <span className="text-2xl">🎯</span>
+                        Målgruppa
+                    </h4>
+                    <ul className="space-y-2 text-purple-800">
+                        <li className="flex items-start gap-2">
+                            <span className="text-orange-500 mt-1">•</span>
+                            <span>40% av aldersgruppe 45-66 handlar på Vinmonopolet minst éin gong per veke</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                            <span className="text-orange-500 mt-1">•</span>
+                            <span>Dei kjem uansett - me treng ikkje rekruttere dei dit</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                            <span className="text-orange-500 mt-1">•</span>
+                            <span>79% av potensielle frivillige blir aldri spurt fordi organisasjonar ikkje torer ta kontakt</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="bg-white p-6 rounded-2xl shadow-sm">
+                    <h4 className="font-bold text-purple-900 mb-4 flex items-center gap-2">
+                        <span className="text-2xl">💡</span>
+                        Løysinga
+                    </h4>
+                    <ul className="space-y-2 text-purple-800">
+                        <li className="flex items-start gap-2">
+                            <span className="text-green-500 mt-1">•</span>
+                            <span>Magnetisk bokmerke med praktisk verdi deles ut ved kassen</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                            <span className="text-green-500 mt-1">•</span>
+                            <span>Budskap: "Du står i køen fordi du tek samfunnsansvar. Kanskje du har 2 timar i veka til meir?"</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                            <span className="text-green-500 mt-1">•</span>
+                            <span>QR-kode går direkte til 3-5 konkrete mikro-oppgåver i Østensjø denne veka</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
       </div>
