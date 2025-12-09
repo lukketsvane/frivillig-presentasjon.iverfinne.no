@@ -21,8 +21,9 @@ export const Hero: React.FC = () => {
                 Frå "Vis legg"<br/>til <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">"Bli frivillig"</span>
               </h1>
               <p className="mt-4 text-xl md:text-2xl text-purple-800/80 leading-relaxed">
-                Me snur rekrutteringslogikken. I staden for at organisasjonar må mase, 
-                lèt me individet vise interesse først – med ein slikkepinne som bindeledd.
+                Ein QR-kode på slikkepinna (Vinmonopolets "Kjærlighet på pinne") leier til <strong>frivillig.iverfinne.no</strong> – 
+                ein enkel webapp der kven som helst kan opprette ei førespursel om frivillig hjelp på under eitt minutt, 
+                eller oppdage konkrete lokale oppgåver.
               </p>
             </motion.div>
 

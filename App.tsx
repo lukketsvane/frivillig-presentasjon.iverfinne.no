@@ -3,6 +3,7 @@ import { Hero } from './components/Hero';
 import { ConceptExplainer } from './components/ConceptExplainer';
 import { UserJourney } from './components/UserJourney';
 import { InteractiveOnboarding } from './components/InteractiveOnboarding';
+import { Impact } from './components/Impact';
 import { Scalability } from './components/Scalability';
 import { Footer } from './components/Footer';
 import { NavBar } from './components/NavBar';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <ConceptExplainer />
         <UserJourney />
         <InteractiveOnboarding />
+        <Impact />
         <Scalability />
       </main>
       <Footer />

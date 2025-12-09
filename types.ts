@@ -12,6 +12,7 @@ export enum SectionId {
   CONCEPT = 'concept',
   JOURNEY = 'journey',
   PROTOTYPE = 'prototype',
+  IMPACT = 'impact',
   SCALE = 'scale',
   ABOUT = 'about'
 }

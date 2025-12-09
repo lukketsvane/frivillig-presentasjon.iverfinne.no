@@ -16,11 +16,12 @@ export const ConceptExplainer: React.FC = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-purple-900">
-                Læringa frå "Vis Legg"-kampanjen
+                Piggy-backing på eksisterande infrastruktur
             </h2>
             <p className="text-xl text-purple-800/70 max-w-3xl mx-auto">
-              Vinmonopolet løyste eit tilsvarande problem for 20 år sidan. 
-              Dei flytta ansvaret for initiativet frå den tilsette til kunden.
+              Me rir på Vinmonopolet sine 350 butikkar for å nå folk i kvardagen – ikkje gjennom kampanjar, 
+              men gjennom tilfeldig oppdaging. Vinmonopolet løyste eit tilsvarande problem for 20 år sidan 
+              ved å flytte ansvaret for initiativet frå den tilsette til kunden.
             </p>
           </motion.div>
         </div>

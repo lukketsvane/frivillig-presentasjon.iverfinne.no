@@ -6,27 +6,27 @@ import { Check, ArrowRight, User, MapPin, Clock } from 'lucide-react';
 const mockTasks: VolunteerTask[] = [
   {
     id: '1',
-    title: 'Gå tur med Nils (83)',
+    title: 'Bli med å lage pannekaker med bestemor',
     organization: 'Oppsal Frivilligsentral',
-    time: 'Torsdag kl 14:00 (1t)',
-    description: 'Nils treng følge til butikken. Han likar å prate om gamle dagar.',
+    time: 'Torsdag kl 14:00 (2t)',
+    description: 'Kari (78) saknar barnebarnet sitt. Ho vil gjerne ha selskap til å lage pannekaker og drikke kaffi.',
     category: 'sosial'
   },
   {
     id: '2',
-    title: 'Vaffelsteiking',
-    organization: 'Manglerud Gård',
-    time: 'Tirsdag kl 11:00 (2t)',
-    description: 'Me treng ei ekstra hand til å steike vaflar for tysdagskaféen.',
-    category: 'praktisk'
+    title: 'Gå tur med Nils (83)',
+    organization: 'Bydel Østensjø',
+    time: 'Fredag kl 11:00 (1t)',
+    description: 'Nils treng følge til butikken. Han likar å prate om gamle dagar og fotball.',
+    category: 'sosial'
   },
   {
     id: '3',
-    title: 'Leksehjelp',
-    organization: 'Deichman Oppsal',
-    time: 'Onsdag kl 16:00 (1.5t)',
-    description: 'Hjelp 7. klassingar med matte og norsk. Enkel rettleiing.',
-    category: 'kultur'
+    title: 'Hjelp Per med å henge opp bilde',
+    organization: 'Oppsal Frivilligsentral',
+    time: 'Onsdag kl 15:00 (30 min)',
+    description: 'Eit enkelt praktisk oppdrag. Maleri skal opp på veggen, men Per klarer ikkje aleine.',
+    category: 'praktisk'
   }
 ];
 
@@ -83,24 +83,26 @@ export const InteractiveOnboarding: React.FC = () => {
              </div>
 
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-yellow-100">
-              Analog onboarding i ei digital tid
+              To måtar å bruke plattforma
             </h2>
             <p className="text-xl text-purple-200 mb-8 leading-relaxed">
-              Dette skjer når kunden skannar slikkepinnen. Ingen lange skjema. Ingen "last ned app". 
-              Berre konkrete, lokale oppgåver som senkar terskelen for å seie "ja".
+              <strong>For dei som treng hjelp:</strong> Skriv kva du treng → vel stad, tid og dato → få ein delbar QR-kode og lenke.<br/>
+              <strong>For dei som vil hjelpe:</strong> Skann slikkepinnen og finn konkrete, lokale oppgåver. 
+              Unge vaksne (18-30) kan bruke plattforma som eit kreativt verktøy – opprette annonsar for frivilligsentralen 
+              utan å forplikte seg til langsiktig frivillighet.
             </p>
             <ul className="space-y-4 mb-10">
                 <li className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-purple-900 font-bold shrink-0">1</div>
-                    <span className="text-lg">Vel ei konkret oppgåve</span>
+                    <span className="text-lg">Skann QR-koden eller gå til frivillig.iverfinne.no</span>
                 </li>
                 <li className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-purple-900 font-bold shrink-0">2</div>
-                    <span className="text-lg">Legg inn telefonnummer</span>
+                    <span className="text-lg">Vel ei konkret oppgåve (eller lag di eiga førespursel)</span>
                 </li>
                 <li className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-purple-900 font-bold shrink-0">3</div>
-                    <span className="text-lg">Du vert kontakta av ein koordinator</span>
+                    <span className="text-lg">Meld interesse eller del din førespursel vidare</span>
                 </li>
             </ul>
           </div>
