@@ -20,6 +20,8 @@ export const Scalability: React.FC = () => {
           <p className="text-lg md:text-xl text-purple-800/70 max-w-3xl mx-auto">
             Kvifor bygge nye vegar når me kan sette opp nye skilt på dei gamle?
             Vi utnyttar ein infrastruktur som allereie er finansiert, bemanna og besøkt.
+            Koplinga til <strong>visleg.no</strong> som overordna plattform gjer det mogleg å aggregere data 
+            på tvers av sentralar – kva type førespurnader konverterer, kor lang tid tek det, kva formuleringar fungerer.
           </p>
         </div>
 
@@ -128,15 +130,23 @@ export const Scalability: React.FC = () => {
                     <ul className="space-y-2 text-purple-800">
                         <li className="flex items-start gap-2">
                             <span className="text-green-500 mt-1">•</span>
-                            <span>Magnetisk bokmerke med praktisk verdi deles ut ved kassen</span>
+                            <span>Slikkepinne med QR-kode deles ut ved kassen på Vinmonopolet</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <span className="text-green-500 mt-1">•</span>
-                            <span>Budskap: "Du står i køen fordi du tek samfunnsansvar. Kanskje du har 2 timar i veka til meir?"</span>
+                            <span>Budskap: "Du tek ansvar. Kanskje du har tid til meir?"</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <span className="text-green-500 mt-1">•</span>
-                            <span>QR-kode går direkte til 3-5 konkrete mikro-oppgåver i Østensjø denne veka</span>
+                            <span>QR går til konkrete mikro-oppgåver i Østensjø, eller oppretting av eigne førespurnader</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                            <span className="text-green-500 mt-1">•</span>
+                            <span>Kvar førespursel blir sin eigen mini-kampanje – QR-koden kan printast, delast på sosiale medium, eller hengast opp lokalt</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                            <span className="text-green-500 mt-1">•</span>
+                            <span>Oppsal Frivilligsentral og Bydel Østensjø står som avsendarar – legitimitet og lokal forankring</span>
                         </li>
                     </ul>
                 </div>

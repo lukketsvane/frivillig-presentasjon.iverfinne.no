@@ -25,7 +25,7 @@ const steps = [
   {
     icon: QrCode,
     title: "Bindeleddet",
-    desc: "På papiret er ein QR-kode: 'Du tek ansvar. Vil du hjelpe nabolaget?'",
+    desc: "På papiret er ein QR-kode til frivillig.iverfinne.no: Opprett eller oppdage førespurnader på under eitt minutt.",
     color: "bg-green-100 text-green-600"
   }
 ];
